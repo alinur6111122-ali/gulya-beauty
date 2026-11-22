@@ -1,0 +1,20 @@
+GULYA BEAUTY – Android Studio layihəsi
+
+Bu, real Android APK yaratmaq üçün layihə mənbəyidir. Tətbiq WebView daxilində mağazanın qara-qızılı interfeysini göstərir.
+
+Daxildir:
+- Gulya xanımın göndərdiyiniz posterdən hazırlanmış portret şəkli
+- 13 orijinal məhsul şəkli, ad, həcm və qiymətlər
+- Məhsul təsvirləri və faydaları
+- Məhsul axtarışı, səbət və WhatsApp sifarişi
+- WhatsApp: +994 55 625 22 42
+
+APK yaratmaq:
+1. Android Studio-nu kompüterə quraşdırın.
+2. File > Open seçin və bu qovluğu açın.
+3. Gradle sync tamamlanmasını gözləyin.
+4. Build > Build Bundle(s) / APK(s) > Build APK(s) seçin.
+5. APK app/build/outputs/apk/debug/app-debug.apk yolunda yaranacaq.
+6. APK-nı Android telefonuna göndərib quraşdıra bilərsiniz.
+
+Qeyd: Bu mühitdə Android SDK/Gradle olmadığı üçün APK binary faylı burada kompilyasiya edilməyib. Bu ZIP hazır Android Studio layihəsidir, APK faylı deyil.

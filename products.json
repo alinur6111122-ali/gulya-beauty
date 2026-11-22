@@ -1,0 +1,158 @@
+[
+  {
+    "name": "ROZMARİN YAĞI",
+    "size": "50 ml",
+    "price": 12,
+    "image": "assets/product-01.png",
+    "description": "Saç və baş dərisinə qulluq üçün istifadə olunur. Baş dərisinin masajına, saçların yumşaq və baxımlı görünməsinə kömək edə bilər.",
+    "benefits": [
+      "Baş dərisinə qulluq",
+      "Saçların yumşaq görünməsini dəstəkləyir",
+      "Saç baxım masajı üçün istifadə olunur"
+    ]
+  },
+  {
+    "name": "8S DAMAGED (CANLANDIRICI SAÇ MASKASI)",
+    "size": "70 q",
+    "price": 12,
+    "image": "assets/product-02.png",
+    "description": "Zədələnmiş və yorğun görünən saçlara qulluq üçün nəzərdə tutulmuş maskadır. Saçların daha yumşaq, hamar və baxımlı görünməsinə kömək edir.",
+    "benefits": [
+      "Zədələnmiş saçlara qulluq",
+      "Yumşaqlığı dəstəkləyir",
+      "Daranmanı asanlaşdıra bilər"
+    ]
+  },
+  {
+    "name": "MOISTURE (DƏRİNDƏN BƏRPAEDİCİ SAÇ MASKASI)",
+    "size": "200 ml",
+    "price": 13,
+    "image": "assets/product-03.png",
+    "description": "Saçlara intensiv nəmləndirici qulluq göstərmək üçün nəzərdə tutulmuş maskadır. Saçların yumşaq, hamar və parlaq görünməsinə kömək edir.",
+    "benefits": [
+      "Nəmləndirici qulluq",
+      "Quru saçlara qulluq",
+      "Yumşaqlığı dəstəkləyir"
+    ]
+  },
+  {
+    "name": "BİOTİN ŞAMPUNU",
+    "size": "300 ml",
+    "price": 15,
+    "image": "assets/product-04.png",
+    "description": "Saçların gündəlik təmizliyi və baxımı üçün nəzərdə tutulub. Saçların daha sağlam, dolğun və baxımlı görünməsinə kömək edir.",
+    "benefits": [
+      "Saç və baş dərisini təmizləyir",
+      "Saçlara qulluq edir",
+      "Gündəlik baxım üçün uyğundur"
+    ]
+  },
+  {
+    "name": "BİOTİN CONDİSİONER",
+    "size": "30 ml",
+    "price": 15,
+    "image": "assets/product-05.png",
+    "description": "Biotin tərkibli saç kremi saçların yuyulmadan sonrakı baxımı üçün nəzərdə tutulub. Saçların yumşaq, hamar və asan daranmasına kömək edir.",
+    "benefits": [
+      "Yumşaqlığı dəstəkləyir",
+      "Daranmanı asanlaşdırır",
+      "Hamar görünüşə kömək edir"
+    ]
+  },
+  {
+    "name": "BİOTİN SAÇ YAĞI",
+    "size": "30 ml",
+    "price": 10,
+    "image": "assets/product-06.png",
+    "description": "Saçlara qulluq və nəmləndirmə məqsədilə istifadə olunur. Saçların daha yumşaq, parlaq və baxımlı görünməsinə kömək edə bilər.",
+    "benefits": [
+      "Saçlara qulluq",
+      "Parlaqlığı dəstəkləyir",
+      "Yumşaqlığı dəstəkləyir"
+    ]
+  },
+  {
+    "name": "ARQAN ŞAMPUNU",
+    "size": "500q",
+    "price": 20,
+    "image": "assets/product-07.png",
+    "description": "Arqan yağlı şampun saçların təmizlənməsi və gündəlik baxımı üçün nəzərdə tutulub. Saçların yumşaq, parlaq və daha baxımlı görünməsinə kömək edir.",
+    "benefits": [
+      "Saçları təmizləyir",
+      "Yumşaqlığı dəstəkləyir",
+      "Quru saçlara qulluq edir"
+    ]
+  },
+  {
+    "name": "ARQAN YAĞI",
+    "size": "100 ml",
+    "price": 12,
+    "image": "assets/product-08.png",
+    "description": "Saçlara qidalandırıcı və yumşaldıcı qulluq üçün istifadə olunur. Saçların daha parlaq, hamar və baxımlı görünməsinə kömək edir.",
+    "benefits": [
+      "Yumşaqlığı dəstəkləyir",
+      "Parlaqlıq verir",
+      "Quru saçlara qulluq edir"
+    ]
+  },
+  {
+    "name": "PARFUME MASKA",
+    "size": "450qr",
+    "price": 20,
+    "image": "assets/product-09.png",
+    "description": "Saçlara qulluq üçün nəzərdə tutulmuş maskadır. Saçların daha yumşaq, hamar və xoş ətirli görünməsinə kömək edə bilər.",
+    "benefits": [
+      "Saçlara qulluq",
+      "Yumşaqlığı dəstəkləyir",
+      "Xoş ətir verir"
+    ]
+  },
+  {
+    "name": "FORMA VERİCİ SAÇ GELİ",
+    "size": "100q",
+    "price": 8,
+    "image": "assets/product-10.png",
+    "description": "Saçlara istənilən formanı vermək və saç düzümünü qorumaq üçün istifadə olunan formaverici geldir.",
+    "benefits": [
+      "Saçlara forma verməyə kömək edir",
+      "Saç düzümünü saxlamağa kömək edir",
+      "Müxtəlif saç modelləri üçün uyğundur"
+    ]
+  },
+  {
+    "name": "QAŞINTI VƏ KƏPƏK ƏLEYHİNƏ SPREY",
+    "size": "60 ml",
+    "price": 10,
+    "image": "assets/product-11.png",
+    "description": "Baş dərisinə qulluq üçün nəzərdə tutulmuş spreydir. Qaşınma və kəpək probleminə qarşı qulluq məqsədilə istifadə olunur.",
+    "benefits": [
+      "Baş dərisinə qulluq",
+      "Kəpəklə mübarizə üçün nəzərdə tutulub",
+      "Saç baxım rutinini tamamlayır"
+    ]
+  },
+  {
+    "name": "QİDALANDIRICI NƏMLƏNDİRİCİ SAÇ YAĞI",
+    "size": "50ml",
+    "price": 9,
+    "image": "assets/product-12.png",
+    "description": "Saçların qidalanması və nəmləndirilməsi üçün nəzərdə tutulmuş saç yağıdır. Saçların yumşaq, parlaq və daha baxımlı görünməsinə kömək edir.",
+    "benefits": [
+      "Nəmləndirici qulluq",
+      "Quru saçlara qulluq",
+      "Yumşaqlıq və parlaqlığı dəstəkləyir"
+    ]
+  },
+  {
+    "name": "KOLLAGEN SAÇ MASKASI",
+    "size": "500qr",
+    "price": 30,
+    "image": "assets/product-13.png",
+    "description": "Saçlara intensiv qulluq üçün nəzərdə tutulub. Saçların daha yumşaq, hamar və dolğun görünməsinə kömək edir.",
+    "benefits": [
+      "Yumşaqlığı dəstəkləyir",
+      "Nəmləndirici qulluq",
+      "Hamar görünüşə kömək edir"
+    ]
+  }
+]

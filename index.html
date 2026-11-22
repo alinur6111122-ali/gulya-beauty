@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#080808">
+<meta name="description" content="GULYA BEAUTY – Professional Keratin & Hair Care. Məhsullara baxın və WhatsApp ilə sifariş edin.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon-192.png">
+<title>GULYA BEAUTY</title>
+<style>
+:root{--bg:#080808;--panel:#14110c;--gold:#d9ad4d;--gold2:#f4d98e;--muted:#c7bda8;--line:#73551e;--white:#fff8e9}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -10%,#38250b 0,#100d08 34%,#070707 72%);color:var(--white);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input{font:inherit}.wrap{max-width:780px;margin:auto;min-height:100vh;padding-bottom:88px}
+header{position:relative;padding:18px 18px 22px;text-align:center;border-bottom:1px solid #6c4d1b;overflow:hidden}
+.brandmark{font-family:Georgia,serif;font-size:clamp(38px,9vw,64px);letter-spacing:5px;color:var(--gold2);text-shadow:0 2px 18px #a66c1c}
+.brandsub{font-family:Georgia,serif;letter-spacing:8px;font-size:17px;margin-top:-5px}
+.tag{color:var(--gold);font-style:italic;margin-top:8px}
+.toprow{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;color:var(--gold2)}
+.pill{border:1px solid var(--line);border-radius:99px;padding:7px 12px;background:#100d08;color:var(--gold2)}
+.hero{margin:14px 14px 18px;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:linear-gradient(120deg,#080808,#211605);display:grid;grid-template-columns:1fr 42%;min-height:210px}
+.hero-copy{padding:22px 8px 20px 20px;align-self:center}.hero h1{font:italic 28px Georgia,serif;color:var(--gold2);margin:0 0 10px}.hero p{color:#e5d8bc;line-height:1.5;margin:0}
+.hero img{width:100%;height:100%;min-height:210px;object-fit:cover;object-position:50% 24%;mask-image:linear-gradient(90deg,transparent 0,#000 20%)}
+.shortcuts{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:0 14px 18px}
+.shortcut{background:#100d08;border:1px solid var(--line);border-radius:13px;padding:12px 4px;text-align:center;color:var(--gold2);font-size:12px}
+.shortcut b{display:block;font-size:22px;margin-bottom:4px}
+.sectionhead{display:flex;align-items:center;justify-content:space-between;padding:4px 16px 12px;color:var(--gold2)}
+.sectionhead h2{font:22px Georgia,serif;margin:0}
+.search{margin:0 14px 14px;width:calc(100% - 28px);border:1px solid var(--line);background:#100d08;color:white;border-radius:12px;padding:13px 14px;outline:none}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0 14px}
+.card{background:linear-gradient(160deg,#1c170e,#0c0b09 65%);border:1px solid #6b4e1e;border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;height:170px;object-fit:contain;background:radial-gradient(ellipse,#2d210e,#080808 72%);padding:12px}
+.cardbody{padding:12px;display:flex;flex-direction:column;gap:7px;flex:1}
+.card h3{font-size:14px;line-height:1.35;margin:0;color:#fff3d7;min-height:38px}
+.meta{color:#cbbd9e;font-size:12px}
+.price{font-size:20px;font-weight:750;color:var(--gold2)}
+.desc{font-size:12px;line-height:1.45;color:#d3c8b2}
+.more{border:0;background:none;color:var(--gold);padding:2px 0;text-align:left;font-size:12px}
+.add{border:1px solid #b88a31;background:linear-gradient(100deg,#8e641d,#e1b957);color:#160f04;font-weight:700;border-radius:10px;padding:10px;margin-top:auto}
+.orderbar{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);width:min(740px,calc(100% - 24px));background:linear-gradient(100deg,#9a6b1e,#f0ce78);color:#120d05;text-decoration:none;text-align:center;padding:14px;border-radius:14px;font-weight:800;box-shadow:0 5px 30px #000}
+.empty{grid-column:1/-1;color:var(--muted);text-align:center;padding:35px}
+footer{text-align:center;color:#9f916f;font-size:11px;padding:26px 12px}
+.modal{display:none;position:fixed;inset:0;background:#000b;z-index:10;align-items:flex-end;justify-content:center}.modal.show{display:flex}
+.sheet{background:#15110a;border:1px solid var(--gold);border-radius:20px 20px 0 0;padding:20px;width:min(700px,100%);max-height:82vh;overflow:auto}
+.sheet h2{color:var(--gold2);font:24px Georgia,serif}.sheet li{margin:8px 0;color:#e4d7bd}.close{float:right;background:none;border:1px solid var(--line);color:var(--gold2);border-radius:8px;padding:5px 10px}
+@media(min-width:650px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.card img{height:190px}.hero{min-height:270px}.hero img{min-height:270px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+ <div class="brandmark">GULYA</div><div class="brandsub">BEAUTY</div>
+ <div class="tag">Professional Keratin &amp; Hair Care</div>
+</header>
+<div class="toprow"><span>🖤 Qara &amp; qızılı premium mağaza</span><button class="pill" id="cartCount">Səbət: 0</button></div>
+<section class="hero">
+ <div class="hero-copy"><h1>Gözəlliyiniz bizim işimizdir...</h1><p>Saç baxımı və keratin məhsulları. Məhsul seçin, sifarişinizi WhatsApp ilə göndərin.</p></div>
+ <img src="assets/gulya-portrait.jpg" alt="Gulya – GULYA BEAUTY">
+</section>
+<nav class="shortcuts">
+ <div class="shortcut"><b>◇</b>Məhsullar</div><div class="shortcut"><b>✧</b>Keyfiyyət</div><div class="shortcut"><b>♛</b>Haqqımızda</div><div class="shortcut"><b>☎</b>Əlaqə</div>
+</nav>
+<div class="sectionhead"><h2>Məhsullarımız</h2><span id="productCount">13 məhsul</span></div>
+<input class="search" id="search" type="search" placeholder="Məhsul axtar...">
+<main class="grid" id="products"></main>
+<footer>GULYA BEAUTY · Professional Hair Care<br>WhatsApp: +994 55 625 22 42</footer>
+</div>
+<a class="orderbar" href="#" id="orderBtn">WhatsApp ilə sifariş et · +994 55 625 22 42</a>
+<div class="modal" id="modal"><div class="sheet"><button class="close" id="close">Bağla ✕</button><div id="modalContent"></div></div></div>
+<script>
+const WA="994556252242";
+let products=[], cart=[];
+const $=s=>document.querySelector(s);
+function render(list=products){
+ const el=$("#products"); el.innerHTML="";
+ $("#productCount").textContent=list.length+" məhsul";
+ if(!list.length){el.innerHTML='<div class="empty">Məhsul tapılmadı.</div>';return}
+ list.forEach((p)=>{
+  const card=document.createElement("article");card.className="card";
+  card.innerHTML=`<img src="${p.image}" alt="${p.name}" loading="lazy"><div class="cardbody"><h3>${p.name}</h3><div class="meta">${p.size}</div><div class="price">${p.price} AZN</div><p class="desc">${p.description}</p><button class="more">Faydalarına bax ↓</button><button class="add">Səbətə əlavə et</button></div>`;
+  card.querySelector(".more").onclick=()=>showDetails(p);
+  card.querySelector(".add").onclick=()=>{cart.push(p);$("#cartCount").textContent="Səbət: "+cart.length;$("#orderBtn").textContent="WhatsApp ilə sifariş et · "+cart.length+" məhsul"};
+  el.appendChild(card);
+ });
+}
+function showDetails(p){
+ $("#modalContent").innerHTML=`<h2>${p.name}</h2><p style="color:#d5c7a8">${p.size} · <b style="color:#f4d98e">${p.price} AZN</b></p><p>${p.description}</p><ul>${p.benefits.map(x=>`<li>${x}</li>`).join("")}</ul><button class="add" id="detailAdd">Səbətə əlavə et</button>`;
+ $("#modal").classList.add("show");
+ $("#detailAdd").onclick=()=>{cart.push(p);$("#cartCount").textContent="Səbət: "+cart.length;$("#modal").classList.remove("show");$("#orderBtn").textContent="WhatsApp ilə sifariş et · "+cart.length+" məhsul"};
+}
+$("#close").onclick=()=>$("#modal").classList.remove("show");
+$("#modal").onclick=e=>{if(e.target.id==="modal")$("#modal").classList.remove("show")};
+$("#search").oninput=e=>{const q=e.target.value.toLocaleLowerCase("az");render(products.filter(p=>(p.name+" "+p.size).toLocaleLowerCase("az").includes(q)))};
+$("#orderBtn").onclick=e=>{
+ e.preventDefault();
+ if(!cart.length){window.open("https://wa.me/"+WA+"?text="+encodeURIComponent("Salam, GULYA BEAUTY. Məhsullar haqqında məlumat almaq istəyirəm."),"_blank");return}
+ const lines=cart.map((p,i)=>`${i+1}. ${p.name} – ${p.size} – ${p.price} AZN`);
+ const total=cart.reduce((s,p)=>s+p.price,0);
+ const msg="Salam, GULYA BEAUTY. Sifariş vermək istəyirəm:\n"+lines.join("\n")+"\nCəmi: "+total+" AZN";
+ window.open("https://wa.me/"+WA+"?text="+encodeURIComponent(msg),"_blank");
+};
+fetch("assets/products.json").then(r=>r.json()).then(d=>{products=d;render()}).catch(()=>{$("#products").innerHTML='<div class="empty">Məhsulları yükləmək mümkün olmadı.</div>'});
+if("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("./sw.js").catch(()=>{});
+</script>
+</body></html>
